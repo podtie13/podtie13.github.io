@@ -1081,9 +1081,9 @@ audio {
 	opacity: 0.6;
 	z-index: 99;
 	width: 100px;
-	height: 183px;
+	height: 100px;
 	background-repeat: no-repeat no-repeat;
-	background-size: 100px 183px;
+	background-size: 100px 100px;
 }
 .balloons h2 {
 	text-transform: uppercase;
@@ -1097,22 +1097,22 @@ audio {
 	background-image: url('b1.png');
 }
 #b2,#b22 {
-	background-image: url('b2.png');
+	background-image: url('b1.png');
 }
 #b3,#b33 {
-	background-image: url('b3.png');
+	background-image: url('b1.png');
 }
 #b4,#b44{
-	background-image: url('b4.png');
+	background-image: url('b1.png');
 }
 #b5,#b55{
-	background-image: url('b5.png');
+	background-image: url('b1.png');
 }
 #b6,#b66{
-	background-image: url('b6.png');
+	background-image: url('b1.png');
 }
 #b7,#b77{
-	background-image: url('b7.png');
+	background-image: url('b1.png');
 }
 .balloons-rotate-behaviour-one {
 	-webkit-animation: balloons_rotate_one linear 10s infinite;
@@ -1251,6 +1251,7 @@ audio {
 
 .balloon-border{
 	position: fixed;
+	left:60%;
 	top:100%;
 	opacity: 0.5;
 	z-index: 9999;
